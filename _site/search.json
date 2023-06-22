@@ -7,6 +7,13 @@
     "text": "mtcars |&gt;\n  select(mpg, wt) |&gt;\n  ggplot(aes(x = wt, y = mpg)) +\n  geom_point() +\n  geom_smooth(method = 'lm', formula = 'y ~ x', se = FALSE) +\n  theme_clean() +\n  labs(x = \"Weight (1000s of lbs)\", y = \"MPG\",\n       title = \"Fuel Efficiency and Weight\",\n       subtitle = \"Heavier cars are less fuel efficient\",\n       caption = \"Henderson and Vellerman (1981)\")"
   },
   {
+    "objectID": "sources.html",
+    "href": "sources.html",
+    "title": "Sources",
+    "section": "",
+    "text": "An overview of sources used in my project. These are my sources. Here are some challenges. Quarto websites are awesome."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",

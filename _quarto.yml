@@ -8,6 +8,17 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - sidebar:sources
+      -sidebar:interactive
+  sidebar:
+    - id: sources
+      title: "Sources"
+      style: "floating"
+      background: "#ffffff"
+      collapse-level: 2
+      contents:
+        - source-1.qmd
+        - source-2.qmd
 
 format:
   html:
