@@ -2,8 +2,19 @@
 title: "About"
 ---
 
-About this site
+## About Me
+My name is **Avery Zheng**, and I'm currently a junior (11th grade) at Phillips Academy Andover. 
 
-```{r}
-1 + 1
-```
+## About the Project
+*Fuel Efficiency and Weight* is a project that graphically explores the relationship between a car's weight and its efficiency, measured in thousands of pounds and mpg, respectively. 
+
+### Goals
+- Explore the relationship between weight and fuel efficiency
+  + Data may be hard to find
+- Practice graphing in R
+
+"This is data science"
+\
+~Preceptor
+\
+[“Kane’s Free Data Science Bootcamp”](https://bootcamp.davidkane.info)

@@ -11,6 +11,20 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "My name is Avery Zheng, and I’m currently a junior (11th grade) at Phillips Academy Andover."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "My name is Avery Zheng, and I’m currently a junior (11th grade) at Phillips Academy Andover."
+  },
+  {
+    "objectID": "about.html#about-the-project",
+    "href": "about.html#about-the-project",
+    "title": "About",
+    "section": "About the Project",
+    "text": "About the Project\nFuel Efficiency and Weight is a project that graphically explores the relationship between a car’s weight and its efficiency, measured in thousands of pounds and mpg, respectively.\n\nGoals\n\nExplore the relationship between weight and fuel efficiency\n\nData may be hard to find\n\nPractice graphing in R\n\n“This is data science”\n~Preceptor\n“Kane’s Free Data Science Bootcamp”"
   }
 ]

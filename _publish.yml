@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 0068df09-73c8-4698-b6ca-a3935021ab5a
+      url: 'https://averyzheng-yay.quarto.pub/first-website'
