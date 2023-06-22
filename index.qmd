@@ -1,11 +1,25 @@
 ---
 title: "first-website"
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+```{r}
+#| echo: false
+#| message: false
+library(tidyverse)
+library(ggthemes)
+```
 
 ```{r}
-1 + 1
+#|  echo: false
+#|  label: car-plot
+mtcars |>
+  select(mpg, wt) |>
+  ggplot(aes(x = wt, y = mpg)) +
+  geom_point() +
+  geom_smooth(method = 'lm', formula = 'y ~ x', se = FALSE) +
+  theme_clean() +
+  labs(x = "Weight (1000s of lbs)", y = "MPG",
+       title = "Fuel Efficiency and Weight",
+       subtitle = "Heavier cars are less fuel efficient",
+       caption = "Henderson and Vellerman (1981)")
 ```
+
