@@ -1,0 +1,17 @@
+---
+title: "Chick Weight"
+---
+```{r}
+#| echo: false
+#| mesage: false
+#| warning: false
+library(plotly)
+library(tidyverse)
+chick_plot <- ChickWeight |>
+  ggplot(aes(x = weight, y = Diet, text = weight)) +
+  geom_point(alpha = 0.5) +
+  labs(title = "Diet and Weight of Chicks",
+       y = "Diet", x = "Weight of Chicks (g)")
+ggplotly(chick_plot, tooltip = "text")
+```
+
